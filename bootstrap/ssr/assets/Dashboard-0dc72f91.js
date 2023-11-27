@@ -1,5 +1,5 @@
 import { jsxs, jsx, Fragment } from "react/jsx-runtime";
-import { A as Authenticated } from "./AuthLayout-2eb63172.js";
+import { A as Authenticated } from "./AuthLayout-c7225f91.js";
 import { ResponsiveContainer, BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Bar, AreaChart, Area } from "recharts";
 import "react";
 import { Head } from "@inertiajs/react";
@@ -7,6 +7,8 @@ import "./BrandLogo-c0dd44e2.js";
 import "./Logo-82b068c2.js";
 import "react-icons/fa6/index.esm.js";
 import "react-icons/ai/index.esm.js";
+import "react-icons/fi/index.esm.js";
+import "react-icons/ri/index.esm.js";
 import "react-icons/fa/index.esm.js";
 const AdminLog = (audit) => {
   console.log(audit);

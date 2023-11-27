@@ -3,7 +3,7 @@ import { useForm, Head } from "@inertiajs/react";
 import { T as TextInput } from "./TextInput-2013c4bf.js";
 import { I as InputError } from "./InputError-75b3a913.js";
 import { useEffect } from "react";
-const Login = () => {
+const Login = ({ token, email }) => {
   const { data, setData, post, processing, errors, reset } = useForm({
     token,
     email,

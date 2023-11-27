@@ -1,5 +1,5 @@
 import { jsxs, Fragment, jsx } from "react/jsx-runtime";
-import { A as Authenticated } from "./AuthLayout-2eb63172.js";
+import { A as Authenticated } from "./AuthLayout-c7225f91.js";
 import { usePage, useForm, Link, Head } from "@inertiajs/react";
 import { useState, useEffect } from "react";
 import Barcode from "react-barcode";
@@ -8,6 +8,8 @@ import "./BrandLogo-c0dd44e2.js";
 import "./Logo-82b068c2.js";
 import "react-icons/fa6/index.esm.js";
 import "react-icons/ai/index.esm.js";
+import "react-icons/fi/index.esm.js";
+import "react-icons/ri/index.esm.js";
 import "react-icons/fa/index.esm.js";
 const AdminAdd = ({ item }) => {
   const user = usePage().props.auth.user;
@@ -63,7 +65,7 @@ const AdminAdd = ({ item }) => {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
     /* @__PURE__ */ jsxs("div", { className: "flex gap-[5em] justify-between", children: [
       /* @__PURE__ */ jsx("div", { className: " flex items-center", children: /* @__PURE__ */ jsxs("select", { className: "text-gray-300 select select-bordered h-[10px] w-24 max-w-xs", onChange: (e) => setFilter(e.target.value), children: [
-        /* @__PURE__ */ jsx("option", { value: "All", children: "Filter?" }),
+        /* @__PURE__ */ jsx("option", { value: "All", children: "All" }),
         /* @__PURE__ */ jsx("option", { value: "Alat-Tulis", children: "Alat-Tulis" }),
         /* @__PURE__ */ jsx("option", { value: "Buku", children: "Buku" }),
         /* @__PURE__ */ jsx("option", { value: "Perlengkapan", children: "Perlengkapan" }),

@@ -32,7 +32,7 @@ const ShopContainer = ({ item }) => {
   }, [filter, item]);
   return /* @__PURE__ */ jsxs(Fragment, { children: [
     /* @__PURE__ */ jsx("div", { className: "h-[10vh] bg-white border-[1px] border-b-gray-200 mt-[4em] md:mt-[5.5em] md:px-[5em] px-7     flex items-center", children: /* @__PURE__ */ jsxs("select", { className: "text-gray-500 select select-bordered h-[10px] md:w-[10%]  bg-white", onChange: (e) => setFilter(e.target.value), children: [
-      /* @__PURE__ */ jsx("option", { value: "All", children: "Filter?" }),
+      /* @__PURE__ */ jsx("option", { value: "All", children: "All" }),
       /* @__PURE__ */ jsx("option", { value: "Alat-Tulis", children: "Alat-Tulis" }),
       /* @__PURE__ */ jsx("option", { value: "Buku", children: "Buku" }),
       /* @__PURE__ */ jsx("option", { value: "Perlengkapan", children: "Perlengkapan" }),
