@@ -48,7 +48,7 @@ class AuthenticatedSessionController extends Controller
          $audits->timestamps = now();
          $audits->save();
 
-        return Gate::allows('isSuperAdmin') ? redirect('/dashboard') : redirect('/selling');
+        return Gate::allows('isSuperAdmin') ? redirect('/dashboard') : redirect('/sellingz');
     }
 
     /**
